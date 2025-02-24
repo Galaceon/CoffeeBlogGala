@@ -28,7 +28,6 @@ body {
     max-width: 120rem;
     width: 90%;
     margin: 0 auto;
-    background-color: rebeccapurple;
 }
 a {
     text-decoration: none;
@@ -55,4 +54,30 @@ img {
 }
 .centrar-texto {
     text-align: center;
+}
+
+
+/** HEADER **/
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    padding: 0 6rem;
+    line-height: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+.nav__links {
+    display: flex;
+    gap: 2rem;
+}
+.titular {
+    text-align: center;
+    margin-top: 16rem;
 }
