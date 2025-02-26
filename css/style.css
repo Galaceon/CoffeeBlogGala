@@ -228,3 +228,9 @@ img {
         column-gap: 3rem;
     }
 }
+
+
+/** ENTRADAS **/
+.entrada__informacion {
+    padding-bottom: 3rem;
+}
