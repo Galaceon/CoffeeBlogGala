@@ -3,7 +3,7 @@
     --fuenteParrafos: "Open Sans", sans-serif;
 
     --primario:  #784D3C;
-    --claro: #e1e1e1;
+    --claro: #d8d8d8;
     --blanco: #f0f0f0;
     --negro: #0f0f0f;
 }
@@ -209,4 +209,22 @@ img {
 .nosotros__imagen,
 .nosotros__texto {
     flex-basis: 50%;
+}
+
+
+/** CURSOS **/
+.curso {
+    padding: 3rem 0;
+    border-bottom: solid 1px var(--claro);
+}
+.curso:last-of-type {
+    border: none;
+}
+@media (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 3rem;
+    }
 }
